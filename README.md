@@ -71,7 +71,11 @@
 
 <div align="center">
 
-![Kutay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kutyfuty&show_icons=true&count_private=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kutyfuty&layout=compact&theme=tokyonight&hide_border=true)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kutyfuty&theme=tokyonight)
+
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kutyfuty&theme=tokyonight)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kutyfuty&theme=tokyonight)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=kutyfuty&theme=tokyonight&hide_border=true)
 
 </div>
