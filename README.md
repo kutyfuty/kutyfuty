@@ -3,14 +3,13 @@
 # Hey, I'm Kutay Onur 👋
 
 **Computer Science Student · Full-Stack, Desktop & Multiplayer Web Developer**  
-📍 Warsaw, Poland · 🌐 [kutayonur.dev](https://kutayonur.dev) · 🎲 [mezarpoly.fun](https://mezarpoly.fun) · ☕ [mezarcafe.com](https://mezarcafe.com) · ✨ [twinely.net](https://twinely.net)
+📍 Warsaw, Poland · 🌐 [kutayonur.dev](https://kutayonur.dev) · ☕ [mezarcafe.com](https://mezarcafe.com) · ✨ [twinely.net](https://twinely.net)
 
 [![GitHub followers](https://img.shields.io/github/followers/kutyfuty?style=flat-square&logo=github&color=181717)](https://github.com/kutyfuty)
 [![Portfolio](https://img.shields.io/badge/Portfolio-kutayonur.dev-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://kutayonur.dev)
-[![Twinely](https://img.shields.io/badge/Twinely-twinely.net-EC4899?style=flat-square&logo=sparkles&logoColor=white)](https://twinely.net)
-[![Mezarpoly](https://img.shields.io/badge/Mezarpoly-mezarpoly.fun-7C3AED?style=flat-square&logo=gamepad&logoColor=white)](https://mezarpoly.fun)
 [![Mezar Café](https://img.shields.io/badge/Mezar%20Caf%C3%A9-mezarcafe.com-D97706?style=flat-square&logo=coffeescript&logoColor=white)](https://mezarcafe.com)
-[![Email](https://img.shields.io/badge/Email-kutayonur000%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:kutayonur000@gmail.com)
+[![Twinely](https://img.shields.io/badge/Twinely-twinely.net-EC4899?style=flat-square&logo=sparkles&logoColor=white)](https://twinely.net)
+[![Email](https://img.shields.io/badge/Email-kutay%40kutayonur.dev-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:kutay@kutayonur.dev)
 
 </div>
 
@@ -20,7 +19,7 @@
 
 - 🎓 Computer Science student in **Warsaw, Poland**
 - 🛠️ Building **real-time multiplayer browser games**, **desktop & web apps (Svelte + Tauri / Rust, PyQt6)**, **web backends**, and **self-hosted Linux/Docker services**
-- 🌐 Running **[kutayonur.dev](https://kutayonur.dev)**, **[twinely.net](https://twinely.net)**, **[mezarpoly.fun](https://mezarpoly.fun)**, and **[mezarcafe.com](https://mezarcafe.com)**
+- 🌐 Running **[kutayonur.dev](https://kutayonur.dev)**, **[mezarcafe.com](https://mezarcafe.com)**, and **[twinely.net](https://twinely.net)**
 
 ---
 
@@ -29,7 +28,7 @@
 #### Live & Private Projects
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **[Mezarpoly · Mezar Café](https://mezarpoly.fun)** | Real-time multiplayer browser monopoly & card games (Blöf, Hortlak) — live at [mezarpoly.fun](https://mezarpoly.fun) & [mezarcafe.com](https://mezarcafe.com) | `JavaScript` `Python` `Docker` |
+| **[Mezar Café](https://mezarcafe.com)** | Real-time multiplayer browser board & card games (Mezarpoly, Blöf, Hortlak) — live at [mezarcafe.com](https://mezarcafe.com) | `JavaScript` `Python` `Docker` |
 | **[Twinely](https://twinely.net)** | Cross-platform application built with modern reactive UI and native Rust backend — live at [twinely.net](https://twinely.net) | `Svelte` `Rust` `Tauri` `TypeScript` |
 
 #### Public Repositories
