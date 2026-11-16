@@ -2,12 +2,13 @@
 
 # Hey, I'm Kutay Onur 👋
 
-**Computer Science Student · Full-Stack, Desktop & Game Infrastructure Developer**  
-📍 Warsaw, Poland · 🌐 [kutayonur.dev](https://kutayonur.dev) · 🎮 [mezarmc.com](https://mezarmc.com)
+**Computer Science Student · Full-Stack, Desktop & Multiplayer Web Developer**  
+📍 Warsaw, Poland · 🌐 [kutayonur.dev](https://kutayonur.dev) · 🎲 [mezarpoly.fun](https://mezarpoly.fun) · ☕ [mezarcafe.com](https://mezarcafe.com)
 
 [![GitHub followers](https://img.shields.io/github/followers/kutyfuty?style=flat-square&logo=github&color=181717)](https://github.com/kutyfuty)
 [![Portfolio](https://img.shields.io/badge/Portfolio-kutayonur.dev-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://kutayonur.dev)
-[![MezarMC](https://img.shields.io/badge/MezarMC-mezarmc.com-5865F2?style=flat-square&logo=discord&logoColor=white)](https://mezarmc.com)
+[![Mezarpoly](https://img.shields.io/badge/Mezarpoly-mezarpoly.fun-7C3AED?style=flat-square&logo=gamepad&logoColor=white)](https://mezarpoly.fun)
+[![Mezar Café](https://img.shields.io/badge/Mezar%20Caf%C3%A9-mezarcafe.com-D97706?style=flat-square&logo=coffeescript&logoColor=white)](https://mezarcafe.com)
 [![Email](https://img.shields.io/badge/Email-kutayonur000%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:kutayonur000@gmail.com)
 
 </div>
@@ -17,12 +18,18 @@
 ### 🧑‍💻 About Me
 
 - 🎓 Computer Science student in **Warsaw, Poland**
-- 🛠️ Building across **web backends**, **real-time multiplayer games**, **desktop apps (Svelte + Tauri / Rust, PyQt6)**, and **self-hosted Linux/Docker infrastructure**
-- 🌐 Running **[kutayonur.dev](https://kutayonur.dev)** and the **[mezarmc.com](https://mezarmc.com)** game server & bot ecosystem
+- 🛠️ Building **real-time multiplayer browser games**, **desktop apps (Svelte + Tauri / Rust, PyQt6)**, **web backends**, and **self-hosted Linux/Docker services**
+- 🌐 Running **[kutayonur.dev](https://kutayonur.dev)**, **[mezarpoly.fun](https://mezarpoly.fun)**, and **[mezarcafe.com](https://mezarcafe.com)**
 
 ---
 
 ### 🚀 Featured Projects
+
+#### Live & Private Projects
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **[Mezarpoly · Mezar Café](https://mezarpoly.fun)** | Real-time multiplayer browser monopoly & card games (Blöf, Hortlak) — live at [mezarpoly.fun](https://mezarpoly.fun) & [mezarcafe.com](https://mezarcafe.com) | `JavaScript` `Python` `Docker` |
+| **Twinely & EQ Günlüğü** | Cross-platform desktop applications built with modern reactive UI and native Rust backend | `Svelte` `Rust` `Tauri` `TypeScript` |
 
 #### Public Repositories
 | Project | Description | Stack |
@@ -31,13 +38,6 @@
 | **[discord-music-bot](https://github.com/kutyfuty/discord-music-bot)** | Self-hosted music-only Discord bot supporting YouTube, Spotify, SoundCloud, live lyrics, and dual voice channels | `Python` `Audio` `Self-Hosted` |
 | **[ultimate-web-cloner](https://github.com/kutyfuty/ultimate-web-cloner)** | Offline website cloner with desktop GUI | `Python` `PyQt6` `Playwright` |
 | **[Youtube-Video-Downloader](https://github.com/kutyfuty/Youtube-Video-Downloader)** | Web app for downloading YouTube videos as MP4 or MP3 | `Python` `Flask` `yt-dlp` |
-
-#### Private & Live Projects
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **Mezarpoly · Mezar Kıraathanesi** | Real-time multiplayer browser monopoly & card games (Blöf, Hortlak) + **Mezar Café** (CrazyGames SDK edition) | `JavaScript` `Python` `Docker` |
-| **MezarMC / MezarNet** | Game server network, backend services, bots, and deployment automation ([mezarmc.com](https://mezarmc.com)) | `Java` `Python` `Shell` |
-| **Twinely & EQ Günlüğü** | Cross-platform desktop applications built with modern reactive UI and native Rust backend | `Svelte` `Rust` `Tauri` `TypeScript` |
 
 ---
 
