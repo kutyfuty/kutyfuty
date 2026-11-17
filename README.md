@@ -82,13 +82,6 @@ const kutay = {
 <img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="49%">
 <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top languages" width="49%">
 
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kutyfuty/kutyfuty/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kutyfuty/kutyfuty/output/snake.svg">
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/kutyfuty/kutyfuty/output/snake-dark.svg" width="100%">
-</picture>
 
 </div>
 
