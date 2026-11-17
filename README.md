@@ -17,7 +17,7 @@
 const kutay = {
   location:  "Warsaw, Poland 🇵🇱",
   studying:  "Computer Science",
-  building:  ["real-time multiplayer games", "desktop apps", "self-hosted services"],
+  building:  ["real-time multiplayer games", "desktop apps", "Discord bots", "self-hosted services"],
   favorite:  "shipping things people actually use",
   languages: ["Türkçe", "English"],
 };
@@ -60,8 +60,6 @@ const kutay = {
 | ✨ | **[Twinely](https://twinely.net)** | Cross-platform app with a reactive UI and a native Rust backend | `Svelte` `Rust` `Tauri` `TypeScript` |
 | 🪦 | **[mezarbot](https://github.com/kutyfuty/mezarbot)** | Self-hosted Discord bot: stutter-free music, private voice rooms, moderation, voice stats, AI (TR/EN) | `Python` `Docker` |
 | 🎵 | **[discord-music-bot](https://github.com/kutyfuty/discord-music-bot)** | Music-only Discord bot: YouTube, Spotify, SoundCloud, live lyrics, two voice channels at once | `Python` `FFmpeg` |
-| 🌐 | **[ultimate-web-cloner](https://github.com/kutyfuty/ultimate-web-cloner)** | Offline website cloner with a desktop GUI | `Python` `PyQt6` `Playwright` |
-| 📥 | **[Youtube-Video-Downloader](https://github.com/kutyfuty/Youtube-Video-Downloader)** | Download YouTube videos as MP4 or MP3 | `Python` `Flask` `yt-dlp` |
 
 ## 🧰 Tech stack
 
