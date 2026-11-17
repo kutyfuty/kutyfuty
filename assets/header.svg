@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1124"/>
+      <stop offset=".55" stop-color="#191f38"/>
+      <stop offset="1" stop-color="#241d4a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".82" cy=".45" r=".35">
+      <stop offset="0" stop-color="#8b6cff" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#8b6cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ghost" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9dcf0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="320" rx="22"/></clipPath>
+    <style>
+      .t  { font: 800 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #f5f6f9; }
+      .s  { font: 600 24px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #a6f05a; }
+      .m  { font: 500 19px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #aab0cc; }
+      .r  { opacity: 0; animation: roll 12s infinite; }
+      .r2 { animation-delay: 4s; }
+      .r3 { animation-delay: 8s; }
+      @keyframes roll {
+        0%   { opacity: 0; transform: translateY(12px); }
+        4%   { opacity: 1; transform: translateY(0); }
+        30%  { opacity: 1; transform: translateY(0); }
+        34%  { opacity: 0; transform: translateY(-12px); }
+        100% { opacity: 0; }
+      }
+      .float { animation: float 4s ease-in-out infinite; }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+      .shadow { animation: shad 4s ease-in-out infinite; transform-origin: 965px 268px; }
+      @keyframes shad { 0%,100% { transform: scaleX(1); opacity: .35; } 50% { transform: scaleX(.75); opacity: .2; } }
+      .blink { animation: blink 5s infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes blink { 0%,92%,100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
+      .star { animation: tw 3s ease-in-out infinite; }
+      .d1 { animation-delay: .7s; } .d2 { animation-delay: 1.4s; } .d3 { animation-delay: 2.1s; }
+      @keyframes tw { 0%,100% { opacity: .2; } 50% { opacity: .9; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+
+    <g fill="#c3b1ff">
+      <circle class="star"    cx="640"  cy="48"  r="2"/>
+      <circle class="star d1" cx="1120" cy="70"  r="2.5"/>
+      <circle class="star d2" cx="760"  cy="270" r="1.8"/>
+      <circle class="star d3" cx="1150" cy="250" r="2"/>
+      <circle class="star d1" cx="560"  cy="210" r="1.6"/>
+      <circle class="star d2" cx="860"  cy="40"  r="1.8"/>
+      <circle class="star"    cx="1060" cy="290" r="1.5"/>
+    </g>
+
+    <!-- floating cards and dice -->
+    <g class="float" style="animation-delay:-1.3s">
+      <g transform="translate(790 70) rotate(-14)">
+        <rect width="62" height="88" rx="9" fill="#f5f6f9"/>
+        <text x="11" y="30" font-family="Arial" font-weight="700" font-size="22" fill="#e5484d">A</text>
+        <text x="31" y="68" font-family="Arial" font-size="30" fill="#e5484d">♥</text>
+      </g>
+    </g>
+    <g class="float" style="animation-delay:-2.6s">
+      <g transform="translate(1085 150) rotate(16)">
+        <rect width="56" height="56" rx="11" fill="#f5f6f9"/>
+        <g fill="#191f38"><circle cx="15" cy="15" r="5"/><circle cx="28" cy="28" r="5"/><circle cx="41" cy="41" r="5"/></g>
+      </g>
+    </g>
+    <g class="float" style="animation-delay:-.6s">
+      <g transform="translate(1110 40)">
+        <circle r="16" fill="#f2c94c"/><circle r="8" fill="#fff" opacity=".85"/>
+        <text y="4" text-anchor="middle" font-family="Arial" font-weight="700" font-size="10" fill="#191f38">8</text>
+      </g>
+    </g>
+
+    <!-- ghost -->
+    <ellipse class="shadow" cx="965" cy="268" rx="58" ry="10" fill="#000"/>
+    <g class="float">
+      <path d="M905 250 V150 a60 60 0 0 1 120 0 V250 l-15 -14 l-15 14 l-15 -14 l-15 14 l-15 -14 l-15 14 l-15 -14 z" fill="url(#ghost)"/>
+      <g fill="#f2a93b">
+        <rect class="blink" x="937" y="140" width="14" height="30" rx="7"/>
+        <rect class="blink" x="979" y="140" width="14" height="30" rx="7"/>
+      </g>
+    </g>
+
+    <!-- text -->
+    <text class="m" x="72" y="92">Hey there, I'm</text>
+    <text class="t" x="68" y="160">Kutay Onur</text>
+    <g>
+      <text class="s r"    x="72" y="208">Building multiplayer games for the browser</text>
+      <text class="s r r2" x="72" y="208">Svelte · Rust · Python · self-hosted Linux</text>
+      <text class="s r r3" x="72" y="208">Computer Science student in Warsaw</text>
+    </g>
+    <text class="m" x="72" y="262">mezarcafe.com · twinely.net · kutayonur.dev</text>
+  </g>
+</svg>

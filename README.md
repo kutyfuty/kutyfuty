@@ -1,79 +1,97 @@
 <div align="center">
 
-# Hey, I'm Kutay Onur 👋
+<a href="https://kutayonur.dev"><img src="./assets/header.svg" alt="Kutay Onur — building multiplayer games for the browser" width="100%"></a>
 
-**Computer Science Student · Full-Stack, Desktop & Multiplayer Web Developer**  
-📍 Warsaw, Poland · 🌐 [kutayonur.dev](https://kutayonur.dev) · ☕ [mezarcafe.com](https://mezarcafe.com) · ✨ [twinely.net](https://twinely.net)
+<br>
 
-[![GitHub followers](https://img.shields.io/github/followers/kutyfuty?style=flat-square&logo=github&color=181717)](https://github.com/kutyfuty)
-[![Portfolio](https://img.shields.io/badge/Portfolio-kutayonur.dev-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://kutayonur.dev)
-[![Mezar Café](https://img.shields.io/badge/Mezar%20Caf%C3%A9-mezarcafe.com-D97706?style=flat-square&logo=coffeescript&logoColor=white)](https://mezarcafe.com)
-[![Twinely](https://img.shields.io/badge/Twinely-twinely.net-EC4899?style=flat-square&logo=sparkles&logoColor=white)](https://twinely.net)
-[![Email](https://img.shields.io/badge/Email-kutay%40kutayonur.dev-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:kutay@kutayonur.dev)
+[![Portfolio](https://img.shields.io/badge/kutayonur.dev-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://kutayonur.dev)
+[![Mezar Café](https://img.shields.io/badge/mezarcafe.com-D97706?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://mezarcafe.com)
+[![Twinely](https://img.shields.io/badge/twinely.net-EC4899?style=for-the-badge&logo=svelte&logoColor=white)](https://twinely.net)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kutay@kutayonur.dev)
 
 </div>
 
----
+## 👋 About me
 
-### 🧑‍💻 About Me
+```js
+const kutay = {
+  location:  "Warsaw, Poland 🇵🇱",
+  studying:  "Computer Science",
+  building:  ["real-time multiplayer games", "desktop apps", "self-hosted services"],
+  favorite:  "shipping things people actually use",
+  languages: ["Türkçe", "English"],
+};
+```
 
-- 🎓 Computer Science student in **Warsaw, Poland**
-- 🛠️ Building **real-time multiplayer browser games**, **desktop & web apps (Svelte + Tauri / Rust, PyQt6)**, **web backends**, and **self-hosted Linux/Docker services**
-- 🌐 Running **[kutayonur.dev](https://kutayonur.dev)**, **[mezarcafe.com](https://mezarcafe.com)**, and **[twinely.net](https://twinely.net)**
+## ☕ Mezar Café — my main project
 
----
+<a href="https://mezarcafe.com"><img src="./assets/mezar-cafe.jpg" alt="Mezar Café: eight multiplayer games in the browser" width="100%"></a>
 
-### 🚀 Featured Projects
+**[mezarcafe.com](https://mezarcafe.com)** is a browser game café I build and run on my own: **eight real-time multiplayer games**, free rooms for up to 8 players, no download, no account needed. One room code, and your friends are in.
 
-#### Live & Private Projects
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **[Mezar Café](https://mezarcafe.com)** | Real-time multiplayer browser board & card games (Mezarpoly, Blöf, Hortlak) — live at [mezarcafe.com](https://mezarcafe.com) | `JavaScript` `Python` `Docker` |
-| **[Twinely](https://twinely.net)** | Cross-platform application built with modern reactive UI and native Rust backend — live at [twinely.net](https://twinely.net) | `Svelte` `Rust` `Tauri` `TypeScript` |
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/mezarpoly.jpg" alt="Mezarpoly board game"><br><div align="center"><b>Mezarpoly</b> · property trading board game</div></td>
+    <td width="50%"><img src="./assets/pool.jpg" alt="Mezar Pool"><br><div align="center"><b>Mezar Pool</b> · 8-ball with a hand-written physics engine</div></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/hortlak.jpg" alt="Hortlak card game"><br><div align="center"><b>Hortlak</b> · fast colour-matching card game</div></td>
+    <td width="50%"><img src="./assets/sea-battle.jpg" alt="Sea Battle"><br><div align="center"><b>Sea Battle</b> · classic fleet hunt for two</div></td>
+  </tr>
+</table>
 
-#### Public Repositories
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **[mezarbot](https://github.com/kutyfuty/mezarbot)** | Self-hosted Discord bot with stutter-free music & SoundCloud fallback, private voice rooms, moderation, voice stats, and AI (TR/EN) | `Python` `Docker` `AI` |
-| **[discord-music-bot](https://github.com/kutyfuty/discord-music-bot)** | Self-hosted music-only Discord bot supporting YouTube, Spotify, SoundCloud, live lyrics, and dual voice channels | `Python` `Audio` `Self-Hosted` |
-| **[ultimate-web-cloner](https://github.com/kutyfuty/ultimate-web-cloner)** | Offline website cloner with desktop GUI | `Python` `PyQt6` `Playwright` |
-| **[Youtube-Video-Downloader](https://github.com/kutyfuty/Youtube-Video-Downloader)** | Web app for downloading YouTube videos as MP4 or MP3 | `Python` `Flask` `yt-dlp` |
+<details>
+<summary><b>🔧 Under the hood</b></summary>
+<br>
 
----
+- **Server-authoritative** game engine in Python (asyncio, aiohttp, WebSockets): every move is checked on the server, clients only render
+- Bots with three difficulty levels and human-like pacing, so a room is never empty
+- Vue + Three.js client (3D dice), built for **phones first** (tested on 360–390 px screens and iPhone WebKit)
+- 2D billiards physics: sliding/rolling friction, spin, cushion jaws and pocket mouths
+- Stripe payments, Google/Discord login, passkeys for the admin panel, nightly encrypted off-site backups
+- Runs on a single free-tier ARM server behind a Cloudflare Tunnel, with an end-to-end Playwright test suite running every night
 
-### 🧰 Tech Stack
+</details>
 
-**Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+## 🚀 Other projects
 
-**Frameworks, Desktop & Automation**  
-![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=black)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+| | Project | What it is | Stack |
+|:-:|:--|:--|:--|
+| ✨ | **[Twinely](https://twinely.net)** | Cross-platform app with a reactive UI and a native Rust backend | `Svelte` `Rust` `Tauri` `TypeScript` |
+| 🪦 | **[mezarbot](https://github.com/kutyfuty/mezarbot)** | Self-hosted Discord bot: stutter-free music, private voice rooms, moderation, voice stats, AI (TR/EN) | `Python` `Docker` |
+| 🎵 | **[discord-music-bot](https://github.com/kutyfuty/discord-music-bot)** | Music-only Discord bot: YouTube, Spotify, SoundCloud, live lyrics, two voice channels at once | `Python` `FFmpeg` |
+| 🌐 | **[ultimate-web-cloner](https://github.com/kutyfuty/ultimate-web-cloner)** | Offline website cloner with a desktop GUI | `Python` `PyQt6` `Playwright` |
+| 📥 | **[Youtube-Video-Downloader](https://github.com/kutyfuty/Youtube-Video-Downloader)** | Download YouTube videos as MP4 or MP3 | `Python` `Flask` `yt-dlp` |
 
-**Infrastructure & Tools**  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-### 📊 GitHub Activity
+## 🧰 Tech stack
 
 <div align="center">
 
-![Profile Details](./profile-summary-card-output/tokyonight/0-profile-details.svg)
+<img src="https://skillicons.dev/icons?i=py,js,ts,rust,java,html,css&perline=7" alt="Languages"><br><br>
+<img src="https://skillicons.dev/icons?i=svelte,vue,tauri,flask,qt,sqlite,nodejs&perline=7" alt="Frameworks"><br><br>
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,docker,nginx,cloudflare,git,github&perline=7" alt="Infrastructure">
 
-![Stats](./profile-summary-card-output/tokyonight/3-stats.svg)
-![Top Languages](./profile-summary-card-output/tokyonight/1-repos-per-language.svg)
+</div>
 
+## 📊 GitHub activity
+
+<div align="center">
+
+<img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile details" width="100%">
+
+<img src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="49%">
+<img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top languages" width="49%">
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kutyfuty/kutyfuty/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kutyfuty/kutyfuty/output/snake.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/kutyfuty/kutyfuty/output/snake-dark.svg" width="100%">
+</picture>
+
+</div>
+
+<div align="center">
+<sub>👻 Come play a round at <a href="https://mezarcafe.com">mezarcafe.com</a></sub>
 </div>
